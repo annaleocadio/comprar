@@ -25,6 +25,24 @@ export const styles = StyleSheet.create({
     borderTopLeftRadius:24,
     borderTopRightRadius: 24,
     padding: 24,
+    paddingTop:32,
     marginTop:24,
   },
+  header:{//faz a parte de pendentes e comprados ficarem uma do lado da outra e com a linha na parte de baixo
+    width:"100%",
+    flexDirection:"row",
+    gap:"12",
+    borderBottomWidth: 1,
+    borderBlockColor: "E4E6EC",
+    paddingBottom: 12,
+  },
+  clearButton:{
+    marginLeft:"auto"
+  },
+  clearText:{
+    fontSize: 12,
+    color: "#828282",
+    fontWeight:600,
+
+  }
 })
